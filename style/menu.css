@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Cinzel', serif;
+    background: url("/assets/images/restaurant.menu.jpg");
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.topnav a{
+    float: left;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav a:hover{
+    background-color: black;
+}
+
+.topnav a.split{
+    float: right;
+    background-color: darkgray;
+}
+
+caption{
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    text-align: center;
+    color: brown;   
+}
+
+#menu{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 150px;    
+}
+
+#menu td, #menu th{
+    padding: 8px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: burlywood;
+    
+}
+
+#menu th {
+    padding-top: 12px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: brown;
+    font-size: 55px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="/style/booking.css">
+</head>
+<body>
+    <div class="topnav">
+        <nav class="navbar">
+            <a class="active" href="/Pages/index.html">Home</a>
+            <a href="/Pages/menu.html">Menu</a>
+            <a href="/Pages/booking.html">Booking</a>
+            <a class="split" href="/Pages/about-us.html">About us</a>                    
+        </nav>
+    </div> 
+    <h1>Reservation</h1>
+    <div class="form-center">
+        
+        <fieldset style="background-color: burlywood;">
+            <form class="form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="your name..." size="1" required>
+    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="your last name..." required>
+    
+                <label for="date">Date</label>
+                <input type="date" id="date" style="font-size: 1.6rem;" required>
+    
+                <label for="date" style="margin-left: 20px;">Time</label>
+                <input type="time" id="date" style="font-size: 1.6rem;" required>
+
+                <label for="total_guess" style="margin-left: 20px;">How many</label>
+                <input type="number" id="total_guess" style="font-size: 1.6rem;" placeholder="2" min="2" required>
+                <br><br>
+                <label for="textarea">Anyting else?</label>
+                <textarea rows="1" cols="100"></textarea>
+                <br>
+                <input type="submit" value="submit">
+                <input style="margin-left: 20px;" type="reset">
+            </form>
+        </fieldset>       
+    </div>
+</body>
+</html>
